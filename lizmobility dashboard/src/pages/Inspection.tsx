@@ -1,6 +1,6 @@
-import AdminSidebar from "../components/AdminSidebar";
+import AdminSidebar from "../components/AdminSidebar"
 
-const Dashboard = () => {
+const Inspection = () => {
   return (
     <div className = "admin-container">
 
@@ -11,4 +11,4 @@ const Dashboard = () => {
   )
 }
 
-export default Dashboard;
+export default Inspection;
