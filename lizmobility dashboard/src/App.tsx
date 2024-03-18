@@ -1,15 +1,15 @@
 import { BrowserRouter as Router,Routes,Route} from "react-router-dom";
 import {Suspense, lazy} from "react"
-import Loader from "./components/loader"
+import Loader from "./components/Loader";
 
 
-const Home = lazy(() => import("./pages/home"));
+const Dashboard = lazy(() => import("./pages/Dashboard"));
 const App = () => {
   return (
     <Suspense fallback={<Loader/>}>
        <Router>
         <Routes>
-          <Route path="/" element={<Home/>} />
+          <Route path="/admin/Dashboard" element={<Dashboard/>} />
         </Routes>
        </Router>
     </Suspense>  
