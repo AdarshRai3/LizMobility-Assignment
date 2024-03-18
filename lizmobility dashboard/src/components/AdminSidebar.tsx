@@ -16,7 +16,6 @@ const AdminSidebar = () => {
           <Li url = "/admin/Dashboard" text = "Dashboard" location = {location} Icon = {RiDashboardFill}/>
           <Li url = "/admin/Inspection" text = "Inspection" location = {location} Icon = {FaMagnifyingGlassChart}/>
           <Li url = "/admin/Issuetracker" text = "Tracker" location = {location} Icon = {MdSpatialTracking}/>
-          
         </ul>         
       </div>
    </aside>
