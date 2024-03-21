@@ -1,5 +1,6 @@
 @import "mixin";
 @import "_dashboard";
+@import "_flow";
 :root{
     font-family: Inter, system-ui,Avenir,Helvetica,Arial,sans-serif;
     line-height:1.5;
@@ -61,3 +62,16 @@ a{
       }
     }
   }
+
+.content{
+  >h3{
+  display:flex;
+  justify-content: center;
+  padding:1rem;
+  }
+}
+
+.flow{
+  height:24rem;
+  width:100%;
+}
